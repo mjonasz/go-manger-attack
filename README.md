@@ -10,6 +10,7 @@ The present repo is an implementation of that attack in Go, against a *modified*
 
 You can use the modded RSA library I included to test the code by simply running:
 ```
+go env -w GO111MODULE=auto # something changed in go 1.16, I don't know go, but it is needed to execute this stuff
 go test -v ./mangerattack -run TestOracleWithModdedRSA
 ```
 
