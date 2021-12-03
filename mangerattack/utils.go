@@ -10,7 +10,7 @@ import (
 	"log"
 	"math/big"
 
-	"gitlab.kudelski.com/romaille/go-manger-attack/moddedrsa"
+	"../moddedrsa"
 )
 
 // fromBase16 returns a new Big.Int from an hexadecimal string, as found in the go crypto tests suite

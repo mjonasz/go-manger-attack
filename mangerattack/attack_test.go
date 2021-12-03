@@ -12,8 +12,8 @@ import (
 	"os"
 	"testing"
 
-	. "gitlab.kudelski.com/romaille/go-manger-attack/mangerattack"
-	"gitlab.kudelski.com/romaille/go-manger-attack/moddedrsa"
+	. "../mangerattack"
+	"../moddedrsa"
 )
 
 // The test private key used by our Oracle to try and decrypt:
